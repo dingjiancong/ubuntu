@@ -1,0 +1,18 @@
+1.添加以下源：
+sudo add-apt-repository ppa:fcitx-team/nightly
+2.添加源之后需要更新一下系统：
+sudo apt-get update
+3.然后就可以开始安装fcitx了：
+sudo apt-get install fcitx
+4.接着安装fcitx的配置工具：
+sudo apt-get install fcitx-config-gtk
+5.然后安装fcitx的table-all安装包：
+sudo apt-get install fcitx-table-all
+6.最后安装im-switch切换工具：
+7.看看我们的fcitx是否安装完成：
+点击那个“搜索您的电脑和在线资源”的图标，在=然后输入fcitx，会出现一个企鹅的图标，表示已经安装完成。
+8.打开搜狗输入法Linux版的官网http://pinyin.sogou.com/linux/?r=pinyin，并下载你需要的版本，这里选择64位版。
+9.在Ubuntu14.01下可以直接点击下载的文件进入软件中心进行安装。
+10.接下来就是在终端中输入im-config，这时会出现一个对话框，点击OK，有一个对话框，点击Yes，你会看到下面的对话框。如果上面是fcitx，就不用管，直接关闭；如果不是，就修改上面的ibus为fcitx.点击OK即可。又会出现一个对话框，接着就是OK，最后重启电脑。
+11.之后，在终端中输入：fcitx-config-gtk3出现对话框，利用左下方的减号删去除去搜狗和键盘英语以外所有的输入法并且将搜狗输入法放在最下边。然后关闭。
+12.这样搜狗输入法就安装完成了。
